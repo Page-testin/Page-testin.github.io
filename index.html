@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Comic+Sans+MS">
+  <style>
+  #textContainer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+  #myButton {
+            width: 50px;
+            height: 50px;
+            border: none;
+            background: url('images/image.jpg') center center/cover;
+            cursor: pointer;
+        }
+  body{
+      background-image: url('images/bg.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: blue;
+    }
+.btn {
+    font-weight: bold;
+    font-family: 'Comic Sans MS', sans-serif;
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: red;
+    color: Cyan;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #8b0000;
+};
+</style>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>nigga</title>
+</head>
+<body>
+  <h1>testowa strona</h1>
+  <p><b>balls</b></p>
+  <div id="buttonContainer">
+    <button id="myButton"></button>
+</div> 
+  <br>
+  <a href="strona2.html" class="btn">strona 2</a>
+</body>
+<script>
+    document.getElementById('myButton').addEventListener('click', function() {
+        window.location.href = 'pm.html';
+    });
+</script>
+</html>
